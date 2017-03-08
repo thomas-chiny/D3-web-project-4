@@ -1,0 +1,74 @@
+
+.banner-wrapper {
+    padding: 5% 5% 0 5%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    color: #f4cc00;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    padding: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu > a {
+    height: 60px;
+    line-height: 60px;
+    background-color: #f4cc00;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu > a .item {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+ol {
+    padding: 0;
+}
+
+.icons-list {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    background-color: black;
+}
+
+.icons-list .icon {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    color: #f4cc00;
+}
+
+.icons-list .icon img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
